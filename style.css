@@ -1,0 +1,145 @@
+/* Global */
+* {
+  font-family: 'kunst grotesk', 'arial', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 1rem .5rem;
+}
+
+header h1 {
+  font-family: 'kunst grotesk', 'arial', sans-serif;
+  font-size: 2rem;
+}
+
+/* Nav */
+.nav-toggle {
+  font-size: 2rem;
+  letter-spacing: 3px;
+  padding: .05rem 1.1rem .5rem 1.1rem;
+  background-color: lightgrey;
+  border-radius: 10px;
+}
+
+.top-nav {
+  display: none;
+  font-family: 'kunst grotesk', 'arial', sans-serif;
+}
+
+/* Main */
+main {
+  margin: 0rem .5rem;
+}
+
+/* Selection */
+.selection {
+  margin: 2rem 0;
+}
+
+.selection-plates {
+  display: flex;
+  justify-content: flex-start;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.selection-plates-plate {
+  margin: 1rem  1rem 0 0;
+}
+
+.selection img {
+  width: 100px;
+  height: 100px;
+  background-color: lightgrey;
+}
+
+/* Selection-Controls */
+.selection-controls ul {
+  display: flex;
+  margin: 2rem 0;
+  max-width: 80%;
+}
+
+.selection-controls li a {
+  font-size: .8rem;
+  letter-spacing: .5px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: .7rem 3rem;
+  margin: 0 .5rem .5rem 0;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+/* Plates */
+.plates {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.plates article {
+  margin: 1rem 0 0 0;
+}
+
+.plates-plate {
+  margin: 1rem  1rem 0 0;
+}
+
+.plates img {
+  width: calc(((100vw - 1rem) / 2) - .5rem);
+  height: calc(((100vw - 1rem) / 2) - .5rem);
+  background-color: lightgrey;
+}
+
+.plates-controls {
+  margin: 4rem 0 0 0;
+  display: flex; 
+  justify-content: space-between;
+}
+
+.plates-controls ul {
+  display: flex;
+}
+
+.plates-controls ul li {
+  align-self: center;
+}
+
+.grid-size {
+  margin: 0 .5rem 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.grid-size p {
+  align-self: center;
+}
+
+.grid-size li a {
+  margin: 0 0 0 1rem;
+  width: 1rem;
+  height: 1rem;
+  border: 1px solid black;
+  border-radius: 50%;
+  text-align: center;
+  padding: 10px;
+  display: inline-block;
+}
+
+/* Footer */
+footer {
+  height: 5rem;
+}
